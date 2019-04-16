@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        html, body, #lines {
+            height: 100%;
+        }
+
+        #lines > div {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #lines div {
+            transition: background 1s ease-out 0.5s;
+        }
+    </style>
+</head>
+<body>
+<div id="lines"></div>
+<script src="./index.js"></script>
+</body>
+</html>
